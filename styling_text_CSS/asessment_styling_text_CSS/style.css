@@ -1,0 +1,151 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+  font-family: roboto;
+
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family: roboto;
+  src: url("Roboto/Roboto-Black.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: roboto-mono;
+  src: url("Roboto_Mono/static/RobotoMono-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: 'lovatolight';
+  src: url('fonts/Lovato-Light-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* general */
+html{
+  font-family: roboto, serif;
+  font-size: 10px;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: roboto-mono, serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 1.5px;
+}
+
+h2{
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+}
+
+section{
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+section > p{
+  text-indent: 20px;
+}
+
+/* link */
+a{
+  outline: none;
+}
+
+a:visited,
+a:focus,
+a:hover{
+  color: #a66;
+}
+
+a:hover,
+a:focus{
+  text-decoration: none;
+}
+
+a:active{
+  background-color: #a66;
+  color: white;
+}
+
+a[href*="http"]{
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 1.1em 1.1em;
+  padding-right: 1.2em;
+}
+
+/* list */
+ol, ul{
+  line-height: 2;
+  list-style-type: square;
+}
+
+/* navi */
+
+nav li{
+  list-style-type: none;
+  margin: 10px;
+  text-align: center;
+  width: 10rem;
+  border: 3px solid #a66;
+  padding: 0;
+}
+
+nav li a{
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+nav a:hover{
+  background-color: #a66;
+  color: white;
+}
